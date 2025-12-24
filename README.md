@@ -11,3 +11,5 @@ previewZipFilesize - looks through all the zips in your cwd, and tells you what 
 fileMoverAndBackup/Rsync - Moves files from a source folder to a different device over SSH, using either scp or rsync. The rsync one needs both wsl rsync and rsync on the destination device. obviously, both devices need ssh enabled, this works best over a tailnet or a LAN.
 
 MusicTrackNumRemover - niche, removes the tracknumbers from filenames. does not remove it from the metadata though
+
+VoicemeeterAuto - Script that restarts the voicemeeter application when your headphones are connected. Prevents the race condition. You won't need to manually connect the device in voicemeeter. Need to specify bt device name.
