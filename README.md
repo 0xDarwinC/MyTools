@@ -15,3 +15,5 @@ fileMoverAndBackup/Rsync - Moves files from a source folder to a different devic
 MusicTrackNumRemover - niche, removes the tracknumbers from filenames. does not remove it from the metadata though
 
 VoicemeeterAuto - Script that restarts the voicemeeter application when your headphones are connected. Prevents the race condition. You won't need to manually connect the device in voicemeeter. Need to specify bt device name.
+
+Cleanser - Give it EXE names from taskmanager, and it'll kill them and free up cached RAM. Useful for when you need to quickly get some ram, like when you're about to do some AI workflows.
